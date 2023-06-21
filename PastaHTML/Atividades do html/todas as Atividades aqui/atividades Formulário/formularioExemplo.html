@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de cadastro</title>
+    <link rel="stylesheet" href="FormularioExemplo.css">
+</head>
+<body>
+    <h1> Aula Formulário IFPR : </h1>
+
+    <form name="FromCadastro" action="" method="post">
+        <fieldset>
+            <legend> Informe seus dados pessoais:  </legend>
+            
+            <div>
+                    <label for="fnome"> Nome: </label>
+                    <input type="text" name="fnome" placeholder="Seu nome">
+            </div>
+            <div> 
+                <label for="fCPF"> CPF: </label>
+                    <input type="text" name="fCPF" placeholder="Seu CPF">
+            </div>
+            <div>
+                <label for="fRG"> RG: </label>
+                <input type="text" name="fRG" placeholder="Seu RG">
+            </div>
+            <div>
+                <br>
+                <label for="fsexo"> Sexo:</label>
+                &nbsp; &nbsp; 
+                Feminino <input type="radio" name="Fsexo" value="feminino"/> 
+                Masculino <input type="radio" name="Fsexo" value="Masculino"/>
+            
+            </div> <br>
+            <div>
+                <label for="fRG"> Data de nascimento: </label>  
+            <input type="date" name="dataDeNascimento"/>
+            </div>
+            <div>
+                <label for="fraça"> Raça: </label> 
+                <input type="checkbox" name="branco" value="branco"/>Branco
+                <input type="checkbox" name="preto" value="preto"/>Preto
+                <input type="checkbox" name="pardo" value="pardo"/> Pardo
+                <input type="checkbox" name="amarelo" value="amarelo"/> Amarelo
+                <input type="checkbox" name="indigena" value="indigena"/> Indígena
+                &nbsp;
+                </div> 
+               
+                <div> 
+                    <br>
+                    <input type="submit" value="Enviar" name="cadastrar"/>
+                    <input type="reset" value="Limpar" name="Limpar"/>
+                </div>
+
+
+
+        </fieldset>
+
+    </form>
+</body>
+</html>

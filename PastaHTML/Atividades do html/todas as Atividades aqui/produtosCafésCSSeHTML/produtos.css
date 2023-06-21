@@ -1,0 +1,28 @@
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+
+}
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1 5%;
+    box-sizing: border-box;
+    border: 2px solid black;
+border-radius: 10px 25px 30px 25px;
+
+}
+.produtos li:hover{
+    border-color: orange;
+
+}
+.produtos li:active{
+    border-color: greenyellow;
+
+}
+.produtos li:hover{
+    font-size: 20px;
+}

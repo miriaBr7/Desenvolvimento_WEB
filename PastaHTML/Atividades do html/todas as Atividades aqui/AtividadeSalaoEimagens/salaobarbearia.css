@@ -1,0 +1,44 @@
+
+body{
+    background: #cfcfa0;
+}
+p{
+    text-align: center;
+    font-size: 18px;
+}
+.salao{
+    color:#FF0000;
+    font-size: 35px;
+    
+}
+#banner{
+    width:"200px";
+}
+h1{
+    text-align: center;
+}
+#missao{
+    font-size: 50px;
+}
+.itens{
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.beneficios{
+    color: rgb(211, 190, 72);
+    padding: 30px;
+    background-color: rgb(206, 142, 142);
+    font-size: 30px;
+}
+.imagembeneficios{
+    width:200%;
+    text-align: center;
+    margin-left: -20%;
+
+}
+ul{
+    display:inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 10%;
+}

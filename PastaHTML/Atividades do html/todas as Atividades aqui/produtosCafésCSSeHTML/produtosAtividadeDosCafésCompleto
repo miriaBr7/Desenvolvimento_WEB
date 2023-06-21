@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <body> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café</title>
+    <link rel="stylesheet" href="produtos.css">
+    
+    <h1>Café sempre é uma ótima opção </h1>
+    <ul class= "produtos">
+        <li>
+            <h2>Café</h2>
+            <img class="imagem" src="cafe1.jfif" alt="imagem do café">
+            <p class = "produto-descrição"> Todo dia é dia de tomar um delicioso <br>café! </p>
+
+        </li>
+        <li>
+            <h2>Café com Leite </h2>
+            <img src ="cafe2.jfif" alt="imagem do 2° Café">  
+            <p class = "produto-descrição"> Todo dia é dia de tomar um delicioso café com Leite</p>
+                
+        </li>
+        <li>
+            <h2>Café capuccino</h2>
+            <img src="cafe3.jfif" alt=" imagem do 3° Café">
+            <p class= " produto-descrição"> Todo dia é dia de tomar um delicioso capuccino</p> 
+        </li>
+
+
+    </ul>
+</head>
+<body>
+    

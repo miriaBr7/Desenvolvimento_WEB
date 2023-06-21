@@ -1,0 +1,18 @@
+p {
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-indent: 3pt;
+    text-align: center;
+}
+
+.borda{
+    background-color: blue;
+    color:aqua;
+
+
+}
+.borda2{
+    background-image: none;
+
+
+}

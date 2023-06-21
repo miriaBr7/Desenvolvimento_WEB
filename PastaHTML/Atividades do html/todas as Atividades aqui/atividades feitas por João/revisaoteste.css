@@ -1,0 +1,14 @@
+body {
+background-color: green;
+
+}
+
+p {
+color: salmon;
+}
+
+input[type = text] {
+    background-color: yellow;
+    color:brown; 
+    border-radius: 20px;
+}

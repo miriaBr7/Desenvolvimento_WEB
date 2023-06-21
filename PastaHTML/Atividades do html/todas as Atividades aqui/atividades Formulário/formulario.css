@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(18, 19, 17);
+
+}
+form fieldset{
+    width: 300px;
+    height: 180x;
+}
+form legend{
+    font-size: bold;
+}
+form{
+    text-align: center;
+    background-color: rgb(142, 219, 181);
+
+}
+form input{
+    border-radius: 8px;
+
+}
+
+
