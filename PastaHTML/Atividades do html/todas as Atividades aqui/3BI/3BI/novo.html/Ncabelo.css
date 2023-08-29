@@ -1,0 +1,139 @@
+header{
+    background-color: rgb(223, 134, 195);
+    color: black;
+    height: 80px;
+}
+
+header h1{
+    position: absolute;
+    top: 0;
+    left: 30px;
+    padding: 10px;
+}
+
+nav{
+    position: absolute;
+    right: 50px;
+    top: 25px;
+}
+
+nav li{
+    display: inline;
+    padding: 15px;
+
+}
+
+.menu-item{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.menu-item:hover{
+    text-decoration: underline;
+}
+
+.principal{
+    display: inline-block;
+    text-align: center;
+}
+
+.imagem{
+    display: flexbox;
+	text-align: center ;
+	width: 55%;
+    display: absolute;
+	border-radius: 80p
+
+}
+
+
+.titulo-principal{
+    text-align: center;
+    display: absolute;
+    font-size: 30px;
+}
+
+.principal p{
+    font-size: 19px;
+    padding-top: 0px;
+    display: absolute;
+}
+
+.mapa{
+    text-align: center;
+    display: absolute;
+    font-size: 25px;
+}
+
+.mapa p{
+    font-size: 19px;
+    padding-top: 10px;
+}
+
+footer{
+    background-color: slategrey;
+    height: 100px;
+    text-align: center;
+}
+
+footer p{
+    color: rgb(25, 23, 23);
+    font-size: 20px;
+}
+
+footer img{
+    padding-top: 60px;
+}
+
+.promocoes{
+	width: 100px;
+	margin: 100 auto;
+	padding: 100px 0;
+}
+
+.promocoes {
+	display: inherit;
+    width: 80%;
+	margin: 0,1%;
+	padding: 60px 40px;
+	box-sizing: border-box;
+	border: 12px solid #c843b9;
+	border-radius: 60px;
+
+}
+
+.promocoes li:hover {
+	border-color: #C78C19;
+}
+
+.promocoes li:active {
+	border-color: #088C19;	
+}
+
+.promocoes li:hover h2 {
+	font-size: 34px;
+}
+
+.promocoes h2 {
+	font-size: 30px;
+	font-weight: bolder;
+
+}
+
+.promocoes-descricao {
+	font-size: 30px;
+
+}
+
+.promocoes-preco {
+	font-size: 22px;
+	font-weight:bolder ;
+	margin-top: 30px;
+}
+
+.promocoes img{
+    width: 50%;
+    height: 50%;
+}
+
