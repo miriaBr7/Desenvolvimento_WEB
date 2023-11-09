@@ -1,0 +1,25 @@
+<html>
+        <head>
+    <title>Vendas</title>
+    <script src="funcoes.js"></script>
+        </head>
+
+    <body>
+        <form name="frVendas">
+        <label for = "cod" > Código </label>
+        <input type = "number"  name="cod" id="cod" onblur = "buscarProduto()">
+
+        <label for = "Produto"> Produto </label>
+        <input type="text" id="produto" disabled>
+
+        <label for = "qtd"> Quantidade </label>
+        <input type="number" id="qtd">
+
+        <input type="button" value = "incluir" onclick = "incluir()">
+        <hr>
+        
+        <table id = "tabela" border=1>
+        </table>
+            </form>
+    </body>
+</html>
